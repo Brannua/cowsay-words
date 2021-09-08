@@ -40,6 +40,7 @@ sudo pacman -S cowsay
 在 ```~/.bashrc``` 或 ```~/.zshrc``` 文件（根据你使用的 ```shell``` 而定），写入如下代码，那么每次启动终端或重新加载 shell 的配置文件，老牛就会给你讲一个英语单词啦～
 
 ```bash
-# 老牛讲单词
-fortune -s | cowsay
+# cowsay words
+alias cowsay="fortune -s | cowsay"
+cowsay
 ```
