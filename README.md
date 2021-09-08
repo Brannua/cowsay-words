@@ -6,16 +6,10 @@
 
 ### Manjaro Linux
 
-- 首先，你需要拥有软件包管理器，推荐 yay，如果没有，按照如下方式下载。
+- 安装 fortune-mod
 
 ```bash
-sudo pacman -S yay
-```
-
-- 然后，使用 yay 安装 fortune-mod。
-
-```bash
-yay -S fortune-mod
+sudo pacman -S fortune-mod
 ```
 
 - 现在你应该已经可以在终端输入 ```fortune -s``` 来打印一句随机的名言了。
@@ -40,10 +34,10 @@ sudo mv ./bak /usr/share/fortune
 
 ```bash
 # 老牛来也～
-yay -S cowsay
+sudo pacman -S cowsay
 ```
 
-在 ```~/.bashrc``` 或 ```~/.zshrc``` 文件（根据你使用的 ```shell``` 而定），写入如下代码，那么每次启动终端或重新加载shell的配置文件，老牛就会给你讲一个英语单词啦～
+在 ```~/.bashrc``` 或 ```~/.zshrc``` 文件（根据你使用的 ```shell``` 而定），写入如下代码，那么每次启动终端或重新加载 shell 的配置文件，老牛就会给你讲一个英语单词啦～
 
 ```bash
 # 老牛讲单词
