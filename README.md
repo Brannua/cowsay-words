@@ -1,6 +1,9 @@
 # cowsay_words
 
-> 终端老牛讲单词，基于 ManjaroLinux
+> 终端老牛讲单词，基于 ArchLinux
+
+![tty](https://user-images.githubusercontent.com/38487617/135759589-dabf61a1-7d5d-4e42-b08c-068ecc5efb0a.gif)
+
 
 - 安装 fortune-mod
 
