@@ -1,8 +1,8 @@
 # cowsay_words
 
-> 终端老牛讲单词，基于 ArchLinux
+> 实验环境：Archlinux
 
-![tty](https://user-images.githubusercontent.com/38487617/135759589-dabf61a1-7d5d-4e42-b08c-068ecc5efb0a.gif)
+![image-20211123082613946](https://gitee.com/pj-l/imgs-1/raw/master/screenShot/image-20211123082613946.png)
 
 
 - 安装 fortune-mod
@@ -11,9 +11,9 @@
 sudo pacman -S fortune-mod
 ```
 
-- 现在你应该已经可以在终端执行 ```fortune -s``` 来打印一句随机的名言了。
+- 现在你应该已经可以在终端执行 ```fortune -s``` 来打印一句随机的名言了
 
-- 现在，我们移除 fortune-mod 自带的名言库。
+- 现在，我们移除 fortune-mod 自带的句库
 
 ```bash
 sudo mkdir bak
@@ -25,13 +25,13 @@ sudo mv ./bak /usr/share/fortune
 
 - 制备英语单词库的方法参考了：[link](https://www.ruanyifeng.com/blog/2015/04/fortune.html)
 
-- 老牛来也～
+- 领养你的可爱牛牛～
 
 ```bash
 sudo pacman -S cowsay
 ```
 
-- 如何让老牛开口讲单词
+- 让可爱牛牛背单词！
 
 ```bash
 fortune -s | cowsay
