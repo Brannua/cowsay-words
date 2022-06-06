@@ -1,10 +1,6 @@
 # cowsay-words
 
-![image-20211123082613946](https://aliyun-oss-lpj.oss-cn-qingdao.aliyuncs.com/images/by-picgo/image-20211123082613946.png)
-
 ### Setup
-
-> In Manjaro Linux
 
 ```bash
 sudo pacman -S fortune-mod cowsay
