@@ -10,7 +10,7 @@ sudo mv /usr/share/fortune/* bak
 sudo mv bak /usr/share/fortune
 
 git clone https://github.com/Brannua/cowsay-words.git --depth 1
-mv cowsay-words/data/* /usr/share/fortune
+sudo mv cowsay-words/data/* /usr/share/fortune
 ```
 
 ### Usage
