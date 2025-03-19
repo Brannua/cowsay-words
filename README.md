@@ -1,5 +1,9 @@
 # cowsay-words
 
+### Environment
+
+ArchLinux or ManjaroLinux
+
 ### Setup
 
 ```bash
@@ -18,6 +22,8 @@ sudo mv cowsay-words/data/* /usr/share/fortune
 ```bash
 fortune -s | cowsay
 ```
+
+You can use `alias` for sure.
 
 ### Ref
 
